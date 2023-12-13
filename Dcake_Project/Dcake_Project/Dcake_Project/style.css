@@ -1,0 +1,832 @@
+.maintitle_h1 {
+	padding-top: 30px;
+	text-align: center;
+	font-size: 50px;
+	font-weight: 1000;
+	font-family: 'Paytone One', sans-serif;
+	color: white;
+}
+#slideshow {
+	width: 100%;
+	height: 400px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+  }
+
+  /* CSS để căn giữa và thiết lập kích thước của div thay thế */
+  .slide-content {
+	display: none;
+	width: 100%;
+	height: 100%;
+	background-color: #C694CE;
+	text-align: center;
+	padding: 20px;
+	box-sizing: border-box;
+	position: relative;
+  }
+
+  /* CSS để tạo các nút tròn */
+  .dot-container {
+	text-align: center;
+	bottom: 10px;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+  }
+  .dot {
+	width: 10px;
+	height: 10px;
+	background-color:  #C694CE;
+	border-radius: 50%;
+	display: inline-block;
+	margin: 0 5px;
+	cursor: pointer;
+	border: 1px solid #CCCECC;
+  }
+
+  .active {
+	background-color: #D0324B;
+  }
+.headerHome {
+	background-color: #E37182;
+}
+.menu {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+.menu > li {
+	display: inline-block;
+	margin: 0px;
+	padding: 0px;
+	margin-left: -5px;
+}
+.menuItems > a {
+	display: inline-block;
+	margin: 0px;
+	padding: 26px 20px;
+	color: #fff;
+	text-decoration: none;
+	font-family: 'Roboto One', sans-serif;
+	font-weight: bold;
+	font-size: 17px;
+}
+.menu > li:hover > a {
+	background-color: #fff;
+	color: #E37182;
+	margin: 0px;
+}
+.current-page a {
+	background-color: #fff;
+	color: #E37182;
+	display: inline-block;
+	margin: 0px;
+	padding: 26px 20px;
+	text-decoration: none;
+	font-family: 'Roboto One', sans-serif;
+	font-weight: bold;
+	font-size: 17px;
+}
+.logo {
+	width: 150px;
+	height: auto;
+}
+.bgImg {
+	position: absolute;
+	width: 100%;
+	height: auto;
+}
+.up { 
+	text-align: center;
+}
+.up img {
+	display: inline-block;
+	z-index: 2;
+	position: relative;
+	right: -80px;
+	width: 770px;
+	height: auto;
+}
+.slideTab {
+	z-index:5; 
+}
+.footerHome .container {
+	text-align: center;
+}
+.footerHome {
+	background-color: #C694CE;
+}
+.offer {
+	border: 1px dashed #FFFF66;
+	color: #fff;
+	font-size: 50px;
+	font-weight: 800;
+	text-align: center;
+	margin: 10px;
+	font-family: 'Paytone One', sans-serif;
+}
+.footerHome p {
+	text-align: center;
+	color: #fff;
+	margin: 20px;
+	font-size: 18px;
+	font-family: 'Roboto One', sans-serif;
+}
+.text {
+	margin-top: 100px;
+}
+.check {
+	background-color: #D0324B;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-right: 20px;
+	padding-left: 20px;
+	border-radius: 5px;
+	border: none;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	font-family: 'Roboto One', sans-serif;
+	display: inline-block;
+}
+.imgCake {
+	width: 70%;
+	height: auto;
+	margin: 30px;
+	padding-bottom: 30px;
+}
+.mainAboutUs {
+	background-color: #F6E0E3;
+}
+.hrline img {
+	width: 30px;
+	height: auto;
+	z-index: 3;
+	position: relative;
+}.hrline1 img {
+	width: 30px;
+	height: auto;
+	z-index: 3;
+	position: relative;
+}
+.hrline hr {
+	position: absolute;
+	margin-left: -85px;
+	width: 200px;
+	height: 0px;
+	border:none;
+	border-bottom: 2px solid black;
+}
+.hrline1 hr {
+	position: absolute;
+	margin-left: -85px;
+	width: 200px;
+	height: 0px;
+	border:none;
+	border-bottom: 2px solid white;
+}
+.line {
+	text-align: center;
+}
+.hrline1 {
+	display: inline-block;
+	margin-bottom: 50px;
+}
+.hrline {
+	display: inline-block;
+	margin-bottom: 50px;
+}
+.maintitle {
+	padding-top: 30px;
+	text-align: center;
+	font-size: 50px;
+	font-weight: 1000;
+	font-family: 'Paytone One', sans-serif;
+}
+.mainAboutUs hr {
+	position: absolute;
+	margin-left: -85px;
+	width: 200px;
+	height: 0px;
+	border:none;
+	border-bottom: 2px solid black;
+}
+.since {
+	color: #D0324B;
+	font-weight: bold;
+	font-family: 'Paytone One', sans-serif;
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.icons {
+	text-align: center;
+}
+.icons h3 {
+	font-size: 25px;
+	font-family: 'Paytone One', sans-serif;
+	font-weight: bold;
+	margin-bottom: 50px;
+}
+.icons img {
+	width: 30%;
+	height: auto;
+	margin: 30px;
+}
+.mainAboutUs p {
+	font-family: 'Roboto One',sans-serif;
+}
+.footerAboutUs {
+	background-color: #C694CE;
+	height: 550px;
+}
+.slider {
+	position: relative;
+	height: 350px;
+}
+.footerContent {
+	height: 200px;
+}
+.caption {
+	text-align: center;
+	z-index: 4;
+	position: relative;
+
+	margin-bottom: 20px;
+	width: 1000px;
+}
+.clients {
+	display: inline-block;
+}
+
+.says {
+	font-size: 20px;
+	color: #fff;
+	font-family: 'Paytone';
+	margin-top:40px;
+	position: absolute;
+	text-align: center;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.author {
+	font-size: 15px;
+	color: #2A2B33;
+	font-weight: bold;
+	font-family: Roboto;
+	text-align: center;
+	bottom: 30px;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.footerAboutUsTitle img {
+	width: 30px;
+	height: auto;
+	z-index: 2;
+	position: absolute;
+	left: 50%;
+
+}
+.footerAboutUsTitle hr {
+	position: absolute;
+	width: 200px;
+	height: 0px;
+	border:none;
+	border-bottom: 2px solid white;
+}
+.footerAboutUsTitle .maintitle {
+	text-align: center;
+	color: #fff;
+	font-size: 50px;
+	font-weight: 1000;
+	font-family: 'Paytone One', sans-serif;
+}
+.serviceCard {
+	display: block;
+	border: 1px solid #ddd;
+	border-radius: 6px;
+	max-width: 340px;
+	height: 430px;
+	text-align: center;
+	margin-top: 140px;
+	background-color: #F6E0E3;
+	margin-left: 28px;
+}
+
+.serviceCard h3 {
+	margin-top: 30px;
+	font-family: 'Paytone One', sans-serif;
+	font-size: 24px;
+}
+
+.serviceCard p {
+	margin-bottom: 20px;
+	font-family: 'Roboto One', sans-serif;
+}
+
+.circleImg {
+	width: 120px;
+	height: 120px;
+	overflow: hidden;
+	border-radius: 100%;
+	margin: -60px auto 0;
+	box-shadow: 6px 6px 0px 1px #C694CE;
+	border: 10px solid white;
+}
+
+.circleImg img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.servicecontent {
+	margin: 20px;
+	background-color: #F6E0E3;
+	border: none;
+
+}
+
+.buttonMore {
+	font-family: 'Paytone One', sans-serif;
+	font-size: 16px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	margin-bottom: 20px;
+	border: 0;
+	background-color: #D0324B;
+	color: white;
+	border-radius: 10%;
+}
+.mainServices {
+	margin-bottom: 70px;
+}
+.mainMenu {
+	background-color:#F6E0E3;
+	padding-bottom: 50px;
+}
+.menuButton ul {
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0px;
+}
+.menuButton li {
+	padding-right: 10px;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+	background-color: #C694CE;
+}
+.menuButton a {
+	background-color:white; 
+	color: #E46677;
+	font-family: "Roboto One",sans-serif;
+	font-size: 15px;
+}
+.menuContent{
+	width: 1000px;
+	max-width:100%;
+	margin-left: auto;
+	margin-right: auto;
+	border: 5px solid #C694CE;
+	border-radius: 15px;
+	margin-top: -16px;
+}
+.picture {
+	width: 330px;
+}
+.menuImg {
+	width: 350px;
+	background-color:white;
+	padding: 10px;
+	margin-bottom: 50px;
+	margin-left: 20px   ;
+	transform: rotate(-8deg);
+	position: relative;
+}
+.menuImg p {
+	text-align: center;
+	padding-top: 10px;
+}
+.menuList{
+	width: 400px;
+	border-radius:18px;
+	border: 1px solid white;
+	background-color:white;
+	padding: 10px;
+	margin: 15px;          
+} 
+.right {
+	margin-top: 250px;
+}
+.menuTittle{
+	color: palevioletred;
+	font-weight: 500;
+}
+.price{
+	margin-top: -35px;
+	color: palevioletred;
+}
+.menuList span{
+	color: black ;
+	vertical-align:sub;
+	font-weight: bold;
+}
+.info {
+	background-color:#E66F7F;
+	padding-left: 30px;
+	padding-right: 30px;
+	color: #F6E0E3;
+	position: relative;
+	z-index: 1;
+	width: 350px;
+	left: 50%;
+	font-size: 40px;
+	border-radius: 10px;;
+	top: 90px;
+}
+.cake100 {
+	width: 115%;
+	height: auto;
+	margin-left: -12px;
+}
+.cake100content {
+	background-color: #C694CE;
+	text-align: center;
+	padding-top: 8%;
+}
+.cake100content h2 {
+	color: #fff;
+	font-family: 'Paytone One', sans-serif;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+.cake100content p {
+	color: #fff;
+	font-family: 'Roboto One', sans-serif;
+	margin-bottom: 20px;
+}
+.btn {
+	color:white;
+	background:#D0324B;
+	border: none; 
+	font-family: 'Paytone One', sans-serif;
+	padding: 15px;
+	margin-left: 6%;
+	margin-bottom: 50px;
+}
+.card {
+	border:none;
+	background-color: #F7F7F7;
+	margin: 0px;
+}
+.card-body button {
+	color:white;
+	background:#D0324B;
+	border: none; 
+	margin-left: 35%;
+	margin-bottom: 50px;
+}
+.card::after {
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+}
+.card-title {
+	font-size: 20px;
+	font-family: 'Paytone One', sans-serif;
+	margin-top: -10px;
+	margin-bottom: 15px;
+}
+.card h2 {
+	font-size: 50px;
+	font-family: 'Paytone One', sans-serif;
+	color: #C694CE;
+	margin-bottom: 10px;
+}
+.card p {
+	font-size: 15px;
+	font-family: 'Roboto One', sans-serif;
+	margin: 20px;
+}
+.card b {
+	font-family: 'Paytone One', sans-serif;
+}
+.card:hover {
+	transform: scale(1.07, 1.07); 
+	background-color: #FFF0F0;
+	border: 3px dashed #C694CE;
+	border-radius: 15px; 
+}
+
+.card:hover::after {
+	opacity: 1;
+}
+
+.card:hover .btn{
+	color:white;
+	background:#D0324B;
+	border: none;
+}
+.gallery img {
+	width: 100%;
+	height: auto;
+	border-radius: 20px;
+	margin-bottom: 20px;
+}
+.gallery {
+	margin-top: 100px;
+}
+.teamImg {
+	margin-top: 100px;
+}
+.teamImg img {
+	width: 100%;
+	height: auto;
+	border-radius: 20px;
+	border-bottom: 10px solid #CE2943;
+	margin: 30px;
+}
+.mainContact .hrline img {
+	width: 30px;
+	height: auto;
+	z-index: 2;
+	position: absolute;
+	left: 35%;
+}
+.mainContact .hrline hr {
+	position: absolute;
+	left: 35%;
+	width: 200px;
+	height: 0px;
+	border:none;
+	border-bottom: 2px solid black;
+}
+.mainContact .hrline {
+	margin-bottom: 50px;
+}
+.contactContent h2 {
+	margin-top: 100px;
+	margin-bottom: 50px;
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Paytone One', sans-serif;
+}
+.contactContent i {
+	color: #E56C7C;
+	font-size: 25px;
+}
+.map {
+	text-align: right;
+}
+.map {
+	color: #646464;
+	font-size: 20px;
+	font-family: 'Roboto One',sans-serif;
+	font-weight: bold;
+}.phone {
+	color: #646464;
+	font-size: 20px;
+	font-family: 'Roboto One',sans-serif;
+	font-weight: bold;
+}
+.mail {
+	color:#E56C7C;
+	font-family: 'Roboto One',sans-serif;
+	font-size:20px;
+	text-align: center;
+	font-weight: bold;
+}
+.contactContent span {
+	margin: 20px;
+}
+.formContact input {
+	width: 100%;
+	height: 40px;
+	border: 1px dashed #C694CE;
+	border-radius: 5px;
+	margin: 7px;
+}
+.formContact textarea {
+	width: 100%;
+	height: 100px;
+	border: 1px dashed #C694CE;
+	border-radius: 5px;
+	margin: 7px;
+}
+.footer {
+	text-align: center;
+	margin-top: 50px;
+	background-color:  #C694CE;
+	border-top: 4px dashed #fff;
+	border-bottom: 4px dashed #fff;
+	color: white;
+	padding-bottom: 30px;
+	margin-bottom: 10px;
+}
+.footerIcons {
+	justify-content: center;
+	margin-bottom: 50px;
+}
+.footerIcons span {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: #E66F7F;
+	text-align: center;
+	line-height: 55px;
+	margin: 10px;
+}
+.footerIcons i {
+	color: #fff;
+	font-size: 24px;
+}
+.footerLogo {
+	margin-top: 50px;
+	width: 200px;
+	text-align: center;
+
+}
+.leftColum {
+	text-align: right;
+	color: white;
+	font-family: 'Roboto One',sans-serif;
+}
+.rightColum {
+	text-align: left;
+	color: white;
+	font-family: 'Roboto One',sans-serif;
+}
+.rightColum hr {
+	width: 250px;
+}
+@media (max-width: 767.98px){
+	.logo {
+		position: absolute;
+		z-index: 1;
+	}
+	.bg-light {
+		background-color: #E37182!important;
+	}
+	.navbar-light .navbar-nav .nav-link {
+		color: white;
+		font-size: 15px;
+		font-family: 'Roboto One',sans-serif;
+	}
+	.up img {
+		z-index: -1;
+		height: 233px;
+	}
+	.text {
+		margin-top: 50px;
+	}
+	.offer {
+		border: 1px dashed #FFFF66;
+		color: #fff;
+		font-size: 26px;
+		font-weight: 800;
+		text-align: center;
+		padding: 10px 70px;
+		font-family: 'Paytone One', sans-serif;
+	}
+	.footerHome p {
+		text-align: center;
+		color: #fff;
+		margin:40px 5px;
+		font-size: 15px;
+		font-family: 'Roboto One', sans-serif;
+	}
+	.check {
+		margin-bottom: 50px;
+	}
+	.imgCake {
+		display: none;
+	}
+	.footerContent .d-none {
+		display: inline-block!important;
+	}
+	.clients {
+		width: 300px;
+		height: 400px;
+	}
+	.says {
+		font-size: 15px;
+		color: #fff;
+		font-family: 'Paytone';
+		margin-top: 100px; 
+	}
+	.carousel-caption {
+		right: 70%;
+		left: auto;
+	}
+	.menuImg {
+		width: 300px;
+		background-color:white;
+		padding: 10px;
+		margin-bottom: 50px;
+		margin-left: 25px   ;
+		transform: rotate(-5deg);
+		position: relative;
+	}
+	.picture {
+		width: 277px;
+	}
+	.info {
+		background-color: #E66F7F;
+		padding:15px 35px;
+		color: #fff;
+		position: relative;
+		z-index: 1;
+		width: 220px;
+		left: 90px;
+		font-size: 25px;
+		border-radius: 10px;
+		top: 20px;
+	}
+	.menuList{
+		width: auto;
+		border-radius:18px;
+		border: 1px solid white;
+		background-color:white;
+		padding: 10px;
+		margin: 15px;          
+	} 
+	.right {
+		margin-top: 20px;
+	}
+	.teamImg img {
+		margin: 20px 0px;
+	}
+	.mainContact .hrline img {
+		width: 30px;
+		height: auto;
+		z-index: 2;
+		position: absolute;
+		left: 45%;
+	}
+	.mainContact .hrline hr {
+		position: absolute;
+		left: 45%;
+		width: 200px;
+		height: 0px;
+		border:none;
+		border-bottom: 2px solid black;
+	}
+	.mainContact .hrline {
+		margin-bottom: 10px;
+	}
+	.contactContent h2 {
+		margin-top: 80px;
+	}
+	.contactContent .row {
+		text-align: center;
+		justify-content: center;
+	}
+	.map {
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	.macarons {
+		display: none;
+	}
+	.leftColum {
+		text-align: center;
+	}
+	.rightColum {
+		text-align: center;
+	}
+	.rightColum hr {
+		display: inline-block;
+	}
+	#slideshow{
+		height: fit-content;
+	}
+.hrline1 hr{
+	display: block;
+	text-align: center;
+	left: 65%;
+	transform: translateX(-50%);
+	top:174px;
+}
+.hrline1{
+	display: block;
+	text-align: center;
+	margin-left: none;
+	top:160px;
+}
+.says {
+	font-size: 20px;
+	color: #fff;
+	font-family: 'Paytone';
+	top:180px;
+	position: absolute;
+	text-align: center;
+	left: 50%;
+	transform: translateX(-50%);
+}
+}
